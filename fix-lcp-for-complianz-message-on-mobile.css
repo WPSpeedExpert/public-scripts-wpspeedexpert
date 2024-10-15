@@ -5,7 +5,7 @@
 @media only screen and (max-width: 480px) {
 #cmplz-cookiebanner .cmplz-message { 
   overflow: scroll; 
-  height: 120px;
+  height: 50px;
  } 
 }
 
