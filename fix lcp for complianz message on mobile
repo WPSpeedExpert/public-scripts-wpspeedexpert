@@ -1,0 +1,15 @@
+/**
+ * Fix LCP for Complianz Message on Mobile
+ * Give a fixed height to the cookie message
+ */
+@media only screen and (max-width: 480px) {
+#cmplz-cookiebanner .cmplz-message { 
+  overflow: scroll; 
+  height: 120px;
+ } 
+}
+
+/* Remove the transition of 1 second */
+.cmplz-cookiebanner {
+  transition:none!important;
+}
